@@ -11,13 +11,8 @@ using UnityEngine.SceneManagement;
 
 public class DisplayWinText : MonoBehaviour {
     public GameObject winText;
-    public LevelCounter levelCounterScript;
     public bool hasWon = false;
 
-
-    private void Start() {
-        levelCounterScript = GameObject.FindGameObjectWithTag("LevelCounter").GetComponent<LevelCounter>();
-    }
 
     private void Update() {
         if (Input.GetKeyDown(KeyCode.C) && hasWon) {
@@ -28,7 +23,6 @@ public class DisplayWinText : MonoBehaviour {
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Player") {
             winText.SetActive(true);
-            levelCounterScript.levelCounter++;
             hasWon = true;
         }
     }
