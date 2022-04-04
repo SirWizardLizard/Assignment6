@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+ * Zechariah Burrus
+ * Assignment 6
+ * Singleton template
+ */
+
+using UnityEngine;
 using System.Collections;
 
 public class Singleton<T> : MonoBehaviour where T : Singleton<T>{

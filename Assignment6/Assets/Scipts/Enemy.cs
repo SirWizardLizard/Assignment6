@@ -1,3 +1,9 @@
+/*
+ * Zechariah Burrus
+ * Assignment 6
+ * Enemy super-class
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

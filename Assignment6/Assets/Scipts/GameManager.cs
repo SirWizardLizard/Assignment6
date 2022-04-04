@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+ * Zechariah Burrus
+ * Assignment 6
+ * Game manager for scenes and pausing
+ */
+
+using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 

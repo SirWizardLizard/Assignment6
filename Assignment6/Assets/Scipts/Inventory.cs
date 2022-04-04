@@ -1,4 +1,9 @@
-﻿using UnityEngine;
+﻿/*
+ * Zechariah Burrus
+ * Assignment 6
+ * Inventory which contains a list of inventory items
+ */
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
